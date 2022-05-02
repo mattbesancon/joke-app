@@ -1,5 +1,8 @@
 import './main.scss'
 import axios from 'axios'
+import laughingAsset from './assets/laughing-emoji.jpeg'
+
+document.getElementById('laughingEmoji').src = laughingAsset
 
 createJoke = () => {
   const config = {
