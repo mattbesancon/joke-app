@@ -1,4 +1,3 @@
-import createJoke from './createJoke'
 import './main.scss'
 import axios from 'axios'
 
