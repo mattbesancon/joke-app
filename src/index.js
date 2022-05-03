@@ -4,7 +4,7 @@ import laughingAsset from './assets/emoji-laughing.png'
 
 document.getElementById('emojiLaughing').src = laughingAsset
 
-createJoke = () => {
+function createJoke() {
   const config = {
     headers: {
       accept: 'application/json',
