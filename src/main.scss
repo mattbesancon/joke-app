@@ -12,18 +12,23 @@ body {
 }
 
 img {
-    opacity: 0.5;
+    opacity: 0.7;
+    border-radius: 50%;
 }
 
 #joke {
+    font-weight: bold;
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 
 #btn {
+    font-weight: 500;
+    background-color: bisque;
+    color: blue;
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
